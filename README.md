@@ -4,7 +4,9 @@
 
 ### Before start
 
-First install the dependencies using:
+- First you must download the model in this link of google [drive](https://drive.google.com/drive/folders/1b1NAXEL4RzOI6kRLKG2i2qZrsQ7kbubx?usp=sharing). And then create a folder called `models/` and put the file the folder.
+
+- Install the dependencies using:
 
 ```bash
 # Install dependencies
