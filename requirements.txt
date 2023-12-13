@@ -1,0 +1,9 @@
+numpy>1.23.0
+pandas==1.5.3
+matplotlib
+scikit-image
+tensorflow==2.14.1
+tensorflow_hub==0.15.0
+opencv-python==4.8.0.76
+scikit-image==0.19.3
+scikit-learn==1.2.2
