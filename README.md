@@ -1,5 +1,4 @@
-# Visao Computacional
-
+# Computer Vision
 ## How to use
 
 ### Before start
