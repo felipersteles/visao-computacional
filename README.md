@@ -89,4 +89,5 @@ Visualization of networks in an understandable way.
 ### V3
 
 Transfer learning from EfficientNet
+
 ![v3](./imgs/v3.png)
