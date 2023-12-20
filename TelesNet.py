@@ -48,6 +48,9 @@ class TelesNet:
     def buildModel(self, model):
         print(f"Versão: {model}")
 
+        if model != "default":
+            self.validaTreino()
+
         if model == "v1":
             self.model = self.v1()
         elif model == "v2":
@@ -77,10 +80,15 @@ class TelesNet:
                 layers.Input(shape=(width, height, self.n_classes)),
                 layers.Conv2D(16, 3, padding="same", activation="relu"),
                 layers.Conv2D(32, 3, padding="same", activation="relu"),
+                layers.BatchNormalization(),
                 layers.MaxPooling2D(),
+                layers.Dropout(0.25),
                 layers.Conv2D(64, 3, padding="same", activation="relu"),
+                layers.BatchNormalization(),
                 layers.MaxPooling2D(),
+                layers.Dropout(0.25),
                 layers.Flatten(),
+                layers.BatchNormalization(),
                 layers.Dense(128, activation="relu"),
                 layers.Dense(self.n_classes, activation="softmax"),
             ]
