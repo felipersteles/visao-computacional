@@ -91,3 +91,13 @@ Visualization of networks in an understandable way.
 Transfer learning from EfficientNet
 
 ![v3](./imgs/v3.png)
+
+## Training
+The training was carried out with x images and therefore a batch size of 64 was chosen. In addition to the models, a DataAugmentation was also implemented with a focus on contrast so that the model generalizes well with a background of any color. The training lasted 50 epochs and the metrics chosen for evaluation were precision, recall and accuracy.
+
+### Results
+
+|   | Metric | Value |
+|---|---|---|
+| Conteúdo da célula 1 | Conteúdo da célula 2 | Conteúdo da célula 3 |
+| Conteúdo da célula 4 | Conteúdo da célula 5 | Conteúdo da célula 6 |
