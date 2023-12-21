@@ -97,7 +97,12 @@ The training was carried out with x images and therefore a batch size of 64 was 
 
 ### Results
 
-|   | Metric | Value |
+|   | Validation | Prediction |
 |---|---|---|
-| Conteúdo da célula 1 | Conteúdo da célula 2 | Conteúdo da célula 3 |
-| Conteúdo da célula 4 | Conteúdo da célula 5 | Conteúdo da célula 6 |
+| Precision | 0.9886 | 0.8901 |
+| Accuracy| 0.9628 | 0.8630 |
+| Recall | 0.9628 | 0.8630 |
+
+## Conclusion
+
+In this exploration, we built and trained a simple neural network to classify the classic game of Rock, Paper, Scissors. Using TensorFlow and image recognition, the model achieved an accuracy of 0.8630 on the test dataset. This result demonstrates the potential of neural networks for image classification tasks, even for seemingly simple applications like hand gestures.
