@@ -1,6 +1,12 @@
 # Computer Vision
 
-Classification convolutional neural network developed by me and called `TelesNet`. Which the use is to classify the gesture inserted in a game of rock, paper and scissors.
+Ah, the age-old battle of Rock, Paper, Scissors. A timeless game of chance, skill, and maybe a little bit of luck. But what if we told you that soon, machines might be able to predict the outcome – not through psychic powers, but through the magic of artificial intelligence?
+
+I developed a Classification Convolutional Neural Network and called `TelesNet`, which the use is to classify the gesture inserted in a game of rock, paper and scissors.
+
+## Why Rock, Paper, Scissors?
+
+Beyond its nostalgic charm, this classic game provides an ideal testing ground for AI development. With just three distinct hand gestures, it's a manageable problem with clear rules and outcomes. Yet, despite its apparent simplicity, it's not just about brute-force pattern recognition. It requires understanding subtle differences in hand shapes, lighting, and even player psychology.
 
 ## How to use
 
@@ -73,6 +79,8 @@ model.buildModel("v1")
 model.train()
 
 ```
+## Materials 
+A dataset of labeled images showing hands forming rock, paper, and scissors gestures, and it's avaiable in this [link](https://www.kaggle.com/datasets/drgfreeman/rockpaperscissors).
 
 ## Models
 
@@ -105,4 +113,4 @@ The training was carried out with x images and therefore a batch size of 64 was 
 
 ## Conclusion
 
-In this exploration, we built and trained a simple neural network to classify the classic game of Rock, Paper, Scissors. Using TensorFlow and image recognition, the model achieved an accuracy of 0.8630 on the test dataset. This result demonstrates the potential of neural networks for image classification tasks, even for seemingly simple applications like hand gestures.
+In this exploration, I built and trained a simple neural network to classify the classic game of Rock, Paper, Scissors. Using TensorFlow and image recognition, the model achieved an accuracy of 0.8630 on the test dataset. This result demonstrates the potential of neural networks for image classification tasks, even for seemingly simple applications like hand gestures.
